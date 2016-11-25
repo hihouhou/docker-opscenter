@@ -24,4 +24,4 @@ RUN apt-get update && \
 
 EXPOSE 8888
 
-CMD ["/usr/share/opscenter/bin/opscenter"]
+CMD ["/usr/share/opscenter/bin/opscenter", "-f"]
